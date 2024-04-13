@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/movies-library/static/css/main.e0633c08.css",
+    "main.js": "/movies-library/static/js/main.be7c4ce7.js",
+    "static/media/Inter-Medium.ttf": "/movies-library/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/movies-library/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/movies-library/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/movies-library/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/1670037353_1-kartinkin-net-p-prosto-serii-fon-krasivo-1.jpg": "/movies-library/static/media/1670037353_1-kartinkin-net-p-prosto-serii-fon-krasivo-1.10477e3a19d54be695d8.jpg",
+    "index.html": "/movies-library/index.html",
+    "main.e0633c08.css.map": "/movies-library/static/css/main.e0633c08.css.map",
+    "main.be7c4ce7.js.map": "/movies-library/static/js/main.be7c4ce7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0633c08.css",
+    "static/js/main.be7c4ce7.js"
+  ]
+}
