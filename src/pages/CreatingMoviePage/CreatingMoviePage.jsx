@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import css from './CreatingMoviePage.module.css';
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
 import Select from 'react-select';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import { nanoid } from 'nanoid';
@@ -12,22 +12,18 @@ import { options } from './optionsData';
 import { customStyles } from './selectStyles';
 import {
   createMovie,
-  getMoviesById,
   updateMovie,
 } from '../../redux/movies/movies.reducer';
 import { BackArrowIcon } from 'assets/sprite';
-import { Link, useLocation, useParams, useNavigate } from 'react-router-dom';
-import {
-  selectIsLoading,
-  selectMovieDetails,
-} from '../../redux/movies/movies.selectors';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+
 import { Notify } from 'notiflix';
 import { Bars } from 'react-loader-spinner';
 
 const CreateMoviePage = ({ edit }) => {
   const dispatch = useDispatch();
   const location = useLocation();
-  const { movieId } = useParams();
+  
   const navigate = useNavigate();
   const backLinkRef = useRef(location.state?.from ?? '/');
   const movie = location.state.data;

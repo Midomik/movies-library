@@ -5,8 +5,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import css from './FavoritePage.module.css';
 import {
   selectFavorites,
-  selectIsLoading,
-  selectMovies,
   selectTotalMovies,
 } from '../../redux/movies/movies.selectors';
 import { getAllMovies } from '../../redux/movies/movies.reducer';
@@ -19,7 +17,6 @@ const FavoritePage = () => {
   const allMovies = useSelector(selectTotalMovies);
   const favoritesIds = useSelector(selectFavorites);
   const filterTerm = useSelector(selectFilterTerm);
-  const isLoading = useSelector(selectIsLoading);
 
   const allfavoriteMovies = allMovies.filter(movie =>
     favoritesIds.includes(movie.id.toString())
@@ -34,9 +31,7 @@ const FavoritePage = () => {
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentItems = favoriteMovies.slice(0, endIndex);
-  
 
-  
   useEffect(() => {
     dispatch(getAllMovies());
   }, [dispatch]);

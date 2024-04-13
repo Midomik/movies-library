@@ -8,7 +8,7 @@ import {
   selectTotalMovies,
 } from '../../redux/movies/movies.selectors';
 import Movies from 'components/Movies/Movies';
-import Filter from 'components/Filter/Filter';
+
 import { selectFilterTerm } from '../../redux/filters/filters.selectors';
 import LoadMoreBtn from 'components/LoadMoreBtn/LoadMoreBtn';
 import { Bars } from 'react-loader-spinner';

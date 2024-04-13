@@ -36,7 +36,7 @@ const MoviePage = () => {
     dispatch(getMoviesById(movieId));
   }, [movieId, dispatch]);
 
-  let year;
+  
   let isFavorite;
   if (movieDetails) {
     isFavorite = favorites.includes(movieDetails.id);

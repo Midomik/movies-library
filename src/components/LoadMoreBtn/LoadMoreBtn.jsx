@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import css from './LoadMoreBtn.module.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { getAllMovies, loadMore } from '../../redux/movies/movies.reducer';
-import { selectTotalMovies } from '../../redux/movies/movies.selectors';
+import { useDispatch } from 'react-redux';
+import { loadMore } from '../../redux/movies/movies.reducer';
 
 const LoadMoreBtn = ({ page, setPage, totalHits }) => {
   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './MoviesCard.module.css';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { FavoriteIcon, TrashIcon } from 'assets/sprite';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -55,7 +55,6 @@ const MoviesCard = ({
 
   return (
     <li onClick={handlerClickCard} className={css.card_container}>
-      
       <img
         className={css.card_img}
         src={image}
@@ -90,7 +89,6 @@ const MoviesCard = ({
           <span className={css.movie_genre}>{rating} ⭐</span>
         </div>
       </div>
-     
     </li>
   );
 };

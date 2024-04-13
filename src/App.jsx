@@ -1,6 +1,5 @@
 import SharedLayout from 'components/SharedLayout/SharedLayout';
 import FavoritePage from './pages/FavoritePage/FavoritePage';
-import HomePage from './pages/HomePage/HomePage';
 import MoviesPage from './pages/MoviesPage/MoviesPage';
 import { Route, Routes } from 'react-router-dom';
 import MoviePage from 'pages/MoviePage/MoviePage';
