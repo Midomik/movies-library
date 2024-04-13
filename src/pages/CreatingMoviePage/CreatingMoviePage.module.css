@@ -1,0 +1,108 @@
+.movies_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: rgb(165, 165, 165);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.go_back_link a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 5px;
+  top: 5px;
+  width: 110px;
+  height: 38px;
+  background-color: rgba(114, 114, 114, 0.6);
+  border-radius: 20px;
+  border: 3px solid rgb(41, 41, 41);
+  font-family: 'Manrope-600', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #bebebe;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.field_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.add_field_title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Manrope-600', sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  color: rgb(185, 185, 185);
+}
+.add_field_title span {
+  font-size: 50px;
+}
+
+.upload_image_field {
+  display: none;
+}
+
+.uploaded_image {
+  border-radius: 20px;
+}
+
+.field {
+  min-width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.error_container {
+  max-width: 300px;
+  font-family: 'Manrope-600', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(177, 66, 66);
+}
+
+.form_submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgb(3, 108, 179);
+  font-family: 'Manrope-600', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  margin-top: 30px;
+}

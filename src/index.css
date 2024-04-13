@@ -1,28 +1,56 @@
-/* :root {
-  
-} */
-
-/* @font-face {
+@font-face {
   font-family: 'Inter-500';
   font-weight: 500;
   font-style: normal;
   font-display: swap;
   src: url('./fonts/Inter-Medium.ttf') format('truetype');
-} */
+}
 
-/* body {
-  background-size: auto 100%;
-  background-position: center center;
+@font-face {
+  font-family: 'Manrope-400';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./fonts/Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope-500';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('./fonts/Manrope-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope-600';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('./fonts/Manrope-SemiBold.ttf') format('truetype');
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assets/1670037353_1-kartinkin-net-p-prosto-serii-fon-krasivo-1.jpg');
+
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  height: 100vh;
+
   font-family: Manrope-400, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   font-style: normal;
-  color: var(--description-item-color);
+  color: white;
   width: 100%;
   margin: 0;
-} */
+}
 h1,
 h2,
 h3,
@@ -48,20 +76,17 @@ button {
   cursor: pointer;
 }
 
-/* .container {
-  max-width: 1214px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .nav_link {
   padding: 5px 10px;
   border-radius: 24px;
   background-color: rgba(18, 20, 23, 0.5);
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav_link.active {
   background-color: rgb(52, 112, 255);
   color: #fff;
-} */
+}

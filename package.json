@@ -1,21 +1,28 @@
 {
-  "name": "template-repo-from-create-react-app",
+  "name": "movies-library",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Midomik.github.io/template-repo-from-create-react-app/",
+  "homepage": "https://Midomik.github.io/movies-library/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.7",
+    "firebase": "^10.11.0",
+    "formik": "^2.4.5",
+    "nanoid": "^5.0.7",
+    "notiflix": "^3.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
     "redux-persist": "^6.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

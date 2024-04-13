@@ -1,0 +1,47 @@
+.movies_container {
+  margin-top: 40px;
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: rgb(165, 165, 165);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.create_movie_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(5, 70, 167);
+  padding: 10px;
+  max-width: 1150px;
+  height: 30px;
+  text-align: center;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Manrope-600', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+.plus_item {
+  font-size: 50px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.no_found {
+  font-family: 'Manrope-600', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
